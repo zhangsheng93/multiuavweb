@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 760" role="img" aria-labelledby="title desc">
+  <title id="title">Multi-UAV benchmark mission concept</title>
+  <desc id="desc">A conceptual aerial mission map with UAV routes, assigned areas, target markers, and validation status points.</desc>
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bfeaf8"/>
+      <stop offset="1" stop-color="#2c8fc4"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6f2df"/>
+      <stop offset="0.55" stop-color="#cadfbd"/>
+      <stop offset="1" stop-color="#a9c99e"/>
+    </linearGradient>
+    <linearGradient id="city" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef2f1"/>
+      <stop offset="1" stop-color="#d7e0dd"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#0c4f7d" flood-opacity="0.18"/>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <rect width="1160" height="760" rx="18" fill="#f7fbff"/>
+  <path d="M0 0H1160V760H0Z" fill="url(#land)"/>
+  <path d="M734 0c-30 88-18 166 34 234 61 79 77 145 47 220-29 72-23 136 18 192 37 51 95 85 157 114h170V0Z" fill="url(#sea)"/>
+  <path d="M0 0H1160V760H0Z" fill="url(#grid)"/>
+
+  <g opacity="0.38">
+    <path d="M47 155C210 106 307 95 449 145c94 33 176 30 257-9" fill="none" stroke="#ffffff" stroke-width="20"/>
+    <path d="M90 570c122-38 225-38 330 12 82 39 175 26 274-41" fill="none" stroke="#ffffff" stroke-width="18"/>
+    <path d="M207 5c-14 143 6 251 61 323 65 85 88 169 68 252" fill="none" stroke="#ffffff" stroke-width="15"/>
+  </g>
+
+  <g opacity="0.58">
+    <path d="M91 160h240v168H91z" fill="url(#city)" transform="rotate(-8 211 244)"/>
+    <path d="M424 254h270v204H424z" fill="url(#city)" transform="rotate(7 559 356)"/>
+    <path d="M146 478h250v142H146z" fill="url(#city)" transform="rotate(5 271 549)"/>
+    <g stroke="#bccdc7" stroke-width="8" opacity="0.55">
+      <path d="M116 198h230M112 238h235M107 282h240"/>
+      <path d="M451 298h260M444 348h270M438 404h260"/>
+      <path d="M172 510h250M166 556h250"/>
+    </g>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M142 168l265-68 125 188-114 196-245 12-88-190z" fill="#1a91d4" opacity="0.16" stroke="#168bd0" stroke-width="3"/>
+    <path d="M536 108l256 36 90 230-124 176-238-62-84-210z" fill="#1aa876" opacity="0.14" stroke="#1a9d72" stroke-width="3"/>
+    <path d="M209 501l174-125 186 71 30 166-146 98-213-28z" fill="#f05a55" opacity="0.12" stroke="#e84d4a" stroke-width="3"/>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M89 582C182 465 205 367 183 263c-19-89 36-150 165-183 85-22 171-3 256 56" stroke="#0f88d2" stroke-width="6" stroke-dasharray="18 14"/>
+    <path d="M318 636c109-62 186-121 231-177 69-86 135-118 245-85 58 17 105-2 143-57" stroke="#19aa78" stroke-width="6" stroke-dasharray="18 14"/>
+    <path d="M103 350c113 30 205 29 276-3 94-42 163-96 205-162" stroke="#ffd43b" stroke-width="6" stroke-dasharray="16 13"/>
+  </g>
+
+  <g stroke="#ffffff" stroke-width="4">
+    <circle cx="214" cy="207" r="28" fill="#ef4444"/>
+    <circle cx="484" cy="284" r="28" fill="#ef4444"/>
+    <circle cx="725" cy="180" r="28" fill="#ef4444"/>
+    <circle cx="822" cy="473" r="28" fill="#ef4444"/>
+    <circle cx="300" cy="558" r="28" fill="#ef4444"/>
+  </g>
+  <g fill="#ffffff" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">
+    <text x="214" y="215">1</text>
+    <text x="484" y="292">2</text>
+    <text x="725" y="188">3</text>
+    <text x="822" y="481">4</text>
+    <text x="300" y="566">5</text>
+  </g>
+
+  <g stroke-width="5" stroke-linejoin="round">
+    <path d="M90 582l38-8-24-29z" fill="#fff176" stroke="#8b7d00"/>
+    <path d="M604 137l41 10-33 27z" fill="#54c7ff" stroke="#075b91"/>
+    <path d="M941 312l40-7-25 34z" fill="#3fe4a8" stroke="#087f5b"/>
+    <path d="M560 462l38 13-35 24z" fill="#ffffff" stroke="#12966e"/>
+    <path d="M343 80l42 5-29 31z" fill="#ffffff" stroke="#0a72b5"/>
+  </g>
+
+  <g stroke="#ffffff" stroke-width="4">
+    <circle cx="175" cy="386" r="22" fill="#62c554"/>
+    <circle cx="430" cy="408" r="22" fill="#62c554"/>
+    <circle cx="674" cy="556" r="22" fill="#62c554"/>
+    <circle cx="891" cy="374" r="22" fill="#62c554"/>
+    <circle cx="523" cy="146" r="22" fill="#ef4444"/>
+  </g>
+  <g fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">
+    <text x="175" y="394">✓</text>
+    <text x="430" y="416">✓</text>
+    <text x="674" y="564">✓</text>
+    <text x="891" y="382">✓</text>
+    <text x="523" y="154">×</text>
+  </g>
+
+  <g transform="translate(38 38)">
+    <rect width="210" height="178" rx="12" fill="#ffffff" opacity="0.94"/>
+    <g font-family="Arial, sans-serif" font-size="20" fill="#20364d">
+      <path d="M26 27l11 21H15z" fill="#138bd6"/>
+      <text x="53" y="43">UAV</text>
+      <circle cx="26" cy="72" r="11" fill="#ef4444"/>
+      <text x="53" y="79">Target</text>
+      <path d="M16 107h32" stroke="#138bd6" stroke-width="4" stroke-dasharray="8 6"/>
+      <text x="53" y="113">Coverage path</text>
+      <rect x="15" y="136" width="23" height="23" fill="#1a91d4" opacity="0.35"/>
+      <text x="53" y="154">Assigned area</text>
+    </g>
+  </g>
+
+  <g transform="translate(42 676)" font-family="Arial, sans-serif" fill="#ffffff">
+    <path d="M0 0h250" stroke="#ffffff" stroke-width="5"/>
+    <path d="M0-12v24M83-12v24M166-12v24M250-12v24" stroke="#ffffff" stroke-width="4"/>
+    <text x="0" y="-22" font-size="18">0</text>
+    <text x="73" y="-22" font-size="18">250</text>
+    <text x="151" y="-22" font-size="18">500</text>
+    <text x="232" y="-22" font-size="18">750 m</text>
+  </g>
+</svg>

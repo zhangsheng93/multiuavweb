@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="MultiUAV-Plat: an LLM-oriented platform, benchmark, and framework for multi-UAV collaborative task planning."
+    >
+    <title>MultiUAV-Plat</title>
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-elevated="false">
+      <a class="brand" href="#top" aria-label="MultiUAV-Plat home">
+        <span class="brand-mark" aria-hidden="true"><img src="assets/logo.svg" alt=""></span>
+        <span>MultiUAV-Plat</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#paper" data-i18n="nav.paper">Paper</a>
+        <a href="#platform" data-i18n="nav.platform">Platform</a>
+        <a href="#downloads" data-i18n="nav.downloads">Downloads</a>
+        <a href="#benchmark" data-i18n="nav.benchmark">Benchmark</a>
+        <a href="#framework" data-i18n="nav.framework">Framework</a>
+        <a href="#leaderboard" data-i18n="nav.leaderboard">Leaderboard</a>
+        <a href="#citation" data-i18n="nav.citation">Citation</a>
+      </nav>
+      <div class="header-actions">
+        <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language">
+          <span data-lang-option="en">EN</span>
+          <span data-lang-option="zh">中文</span>
+        </button>
+        <a class="header-github" href="https://github.com/zhangsheng93/MultiUAV-Plat" data-i18n="actions.github">GitHub</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section-spacious" id="paper">
+        <div class="hero-copy">
+          <p class="project-type" data-i18n="hero.type">Paper · Platform · Benchmark · Framework</p>
+          <h1 data-i18n="hero.title">MultiUAV-Plat: An LLM-Oriented Platform, Benchmark and Framework for Multi-UAV Collaborative Task Planning</h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">
+            A lightweight simulation platform and reproducible benchmark for studying LLM agents that plan, act, observe, and verify multi-UAV missions through restricted APIs and partial local perception.
+          </p>
+          <div class="hero-meta" aria-label="Authors and affiliation">
+            <p class="authors" data-author-list>
+              <span>Sheng Zhang</span>, <span>Qinglin Li</span>, <span>Yuechao Zang</span>, <span>Xueqin Huang</span>, <span>Yijia Fu</span>, <span>Cheng Zhu<sup>*</sup></span>
+            </p>
+            <p class="corresponding-note" data-i18n="hero.corresponding">* Corresponding author</p>
+          </div>
+          <div class="cta-row" aria-label="Project links">
+            <a class="button button-primary" href="#citation" data-i18n="actions.paper">Paper</a>
+            <a class="button" href="https://github.com/zhangsheng93/MultiUAV-Plat" data-i18n="actions.code">Code</a>
+            <a class="button" href="#benchmark" data-i18n="actions.benchmark">Benchmark</a>
+            <a class="button" href="#leaderboard" data-i18n="actions.leaderboard">Leaderboard</a>
+            <a class="button" href="https://github.com/zhangsheng93/MultiUAV-Plat" data-i18n="actions.view3d">3D View</a>
+          </div>
+          <div class="download-row" aria-label="Platform downloads">
+            <a class="download-chip" href="https://github.com/zhangsheng93/MultiUAV-Plat/releases">
+              <span class="platform-icon" aria-hidden="true"><img src="img/windows.svg" alt=""></span>
+              <span data-i18n="downloads.windows">Windows</span>
+            </a>
+            <a class="download-chip" href="https://github.com/zhangsheng93/MultiUAV-Plat/releases">
+              <span class="platform-icon" aria-hidden="true"><img src="img/mac os.svg" alt=""></span>
+              <span data-i18n="downloads.macos">macOS</span>
+            </a>
+            <a class="download-chip" href="https://github.com/zhangsheng93/MultiUAV-Plat/releases">
+              <span class="platform-icon" aria-hidden="true"><img src="img/Ubuntu.svg" alt=""></span>
+              <span data-i18n="downloads.ubuntu">Ubuntu</span>
+            </a>
+          </div>
+          <dl class="stats-grid" aria-label="Benchmark statistics">
+            <div>
+              <dt>75</dt>
+              <dd data-i18n="stats.sessions">mission sessions</dd>
+            </div>
+            <div>
+              <dt>1500</dt>
+              <dd data-i18n="stats.tasks">natural-language tasks</dd>
+            </div>
+            <div>
+              <dt>9396</dt>
+              <dd data-i18n="stats.checks">validation checks</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-visual" aria-label="MultiUAV-Plat visual preview">
+          <figure class="visual-card visual-card-main concept-card">
+            <img src="assets/mission-concept.svg" alt="Conceptual multi-UAV benchmark mission map">
+            <figcaption data-i18n="hero.visualConcept">Conceptual benchmark mission map with UAV routes, assigned areas, targets, and validation states</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section download-section" id="downloads">
+        <div class="section-heading compact">
+          <p class="section-label" data-i18n="downloads.label">Downloads</p>
+          <h2 data-i18n="downloads.title">Platform packages and benchmark assets.</h2>
+          <p data-i18n="downloads.body">Download platform installers for Windows, macOS, and Ubuntu, together with the benchmark package used for reproducible evaluation. Packages are distributed through GitHub Releases.</p>
+        </div>
+        <div class="download-grid">
+          <a class="download-card" href="https://github.com/zhangsheng93/MultiUAV-Plat/releases">
+            <span class="platform-icon large" aria-hidden="true">
+              <img src="img/windows.svg" alt="">
+            </span>
+            <strong data-i18n="downloads.windows">Windows</strong>
+            <small data-i18n="downloads.release">Platform installer</small>
+          </a>
+          <a class="download-card" href="https://github.com/zhangsheng93/MultiUAV-Plat/releases">
+            <span class="platform-icon large" aria-hidden="true">
+              <img src="img/mac os.svg" alt="">
+            </span>
+            <strong data-i18n="downloads.macos">macOS</strong>
+            <small data-i18n="downloads.release">Platform installer</small>
+          </a>
+          <a class="download-card" href="https://github.com/zhangsheng93/MultiUAV-Plat/releases">
+            <span class="platform-icon large" aria-hidden="true">
+              <img src="img/Ubuntu.svg" alt="">
+            </span>
+            <strong data-i18n="downloads.ubuntu">Ubuntu</strong>
+            <small data-i18n="downloads.release">Platform installer</small>
+          </a>
+          <a class="download-card benchmark-download-card" href="https://github.com/zhangsheng93/MultiUAV-Plat/releases">
+            <span class="platform-icon large" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2h11A2.5 2.5 0 0 1 20 4.5v15A2.5 2.5 0 0 1 17.5 22h-11A2.5 2.5 0 0 1 4 19.5v-15Zm4 1v4h8v-4H8Zm0 6v2h8v-2H8Zm0 4v2h5v-2H8Z"/></svg>
+            </span>
+            <strong data-i18n="downloads.benchmark">Benchmark</strong>
+            <small data-i18n="downloads.benchmarkBody">Sessions, tasks, scenarios, and validation assets</small>
+          </a>
+        </div>
+      </section>
+
+      <section class="section section-split" id="platform">
+        <div class="section-intro">
+          <p class="section-label" data-i18n="platform.label">Platform</p>
+          <h2 data-i18n="platform.title">An agent-facing simulation layer for multi-UAV missions.</h2>
+          <p data-i18n="platform.body">
+            MultiUAV-Plat exposes mission-level UAV actions through concise RESTful APIs, while preserving realistic constraints such as role-based visibility, partial observations, environment feedback, and optional 2D/3D visualization.
+          </p>
+        </div>
+        <div class="feature-list">
+          <article>
+            <h3 data-i18n="platform.feature1.title">Restricted API interaction</h3>
+            <p data-i18n="platform.feature1.body">Agents use observation, takeoff, landing, waypoint navigation, sensing, photography, communication, and verification endpoints instead of privileged simulator state.</p>
+          </article>
+          <article>
+            <h3 data-i18n="platform.feature2.title">Agent-level observability</h3>
+            <p data-i18n="platform.feature2.body">Each active agent receives task descriptions, UAV status, command feedback, and local perception without access to hidden validator specifications.</p>
+          </article>
+          <article>
+            <h3 data-i18n="platform.feature3.title">Human-readable debugging</h3>
+            <p data-i18n="platform.feature3.body">Synchronized 2D and 3D views make mission state, UAV movement, obstacles, targets, and execution progress easier to inspect.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section visual-section">
+        <div class="image-pair">
+          <figure>
+            <img src="assets/2d-view.png" alt="2D overview of a UAV mission scenario">
+            <figcaption data-i18n="platform.image2d">2D overview view</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/3d-view.png" alt="3D view of a UAV mission scenario">
+            <figcaption data-i18n="platform.image3d">3D visualization view</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="benchmark">
+        <div class="section-heading">
+          <p class="section-label" data-i18n="benchmark.label">Benchmark</p>
+          <h2 data-i18n="benchmark.title">Closed-loop evaluation for LLM-controlled aerial collaboration.</h2>
+          <p data-i18n="benchmark.body">
+            The benchmark evaluates whether agents can interpret natural-language objectives, choose UAVs, collect missing information, execute valid actions, coordinate multiple vehicles, and satisfy hidden mission-level checks.
+          </p>
+          <div class="section-actions">
+            <a class="button button-primary" href="https://github.com/zhangsheng93/MultiUAV-Plat/releases" data-i18n="actions.downloadBenchmark">Download Benchmark</a>
+            <a class="button" href="#leaderboard" data-i18n="actions.viewLeaderboard">View Leaderboard</a>
+          </div>
+        </div>
+        <div class="benchmark-layout">
+          <div class="benchmark-card">
+            <span class="metric">3</span>
+            <h3 data-i18n="benchmark.scenarios.title">Scenario families</h3>
+            <p data-i18n="benchmark.scenarios.body">Target Assignment, Area Search, and Area Assignment and Patrol.</p>
+          </div>
+          <div class="benchmark-card">
+            <span class="metric">5</span>
+            <h3 data-i18n="benchmark.difficulty.title">Difficulty levels</h3>
+            <p data-i18n="benchmark.difficulty.body">Easy, Intermediate, Moderate, Hard, and Extreme mission settings.</p>
+          </div>
+          <div class="benchmark-card">
+            <span class="metric">21</span>
+            <h3 data-i18n="benchmark.validators.title">Validation endpoints</h3>
+            <p data-i18n="benchmark.validators.body">Hidden checks score task completion and partial progress across movement, sensing, target, area, and coordination conditions.</p>
+          </div>
+        </div>
+        <figure class="wide-figure methodology-figure">
+          <img src="assets/framework.png" alt="MultiUAV-Plat methodology overview">
+          <figcaption data-i18n="benchmark.caption">Methodology overview connecting the platform, benchmark, and Agent4Drone workflow.</figcaption>
+        </figure>
+      </section>
+
+      <section class="section framework-section" id="framework">
+        <div class="section-heading compact">
+          <p class="section-label" data-i18n="framework.label">Framework</p>
+          <h2 data-i18n="framework.title">Agent4Drone structures planning into a feedback-driven workflow.</h2>
+          <p data-i18n="framework.body">
+            The workflow keeps the agent focused on mission-level reasoning: observe, understand, remember, plan, execute, verify, and replan when feedback shows a gap.
+          </p>
+        </div>
+        <div class="workflow" aria-label="Agent4Drone workflow">
+          <span data-i18n="workflow.observation">Observation</span>
+          <span data-i18n="workflow.understanding">Task Understanding</span>
+          <span data-i18n="workflow.memory">Memory</span>
+          <span data-i18n="workflow.planning">Planning</span>
+          <span data-i18n="workflow.execution">Execution</span>
+          <span data-i18n="workflow.verification">Verification</span>
+        </div>
+        <figure class="wide-figure">
+          <img src="assets/agent4drone_framework.png" alt="Agent4Drone framework diagram">
+          <figcaption data-i18n="framework.caption">Agent4Drone framework structure from the paper.</figcaption>
+        </figure>
+      </section>
+
+      <section class="section leaderboard-section" id="leaderboard">
+        <div class="section-heading">
+          <p class="section-label" data-i18n="leaderboard.label">Leaderboard</p>
+          <h2 data-i18n="leaderboard.title">Benchmark leaderboard and submissions.</h2>
+          <p data-i18n="leaderboard.body">
+            The leaderboard is maintained under the unified benchmark protocol. Researchers can report new evaluation results through the Submit Results entry.
+          </p>
+        </div>
+        <div class="table-toolbar">
+          <p id="leaderboard-status" aria-live="polite" data-i18n="leaderboard.loading">Loading leaderboard data...</p>
+          <div class="table-actions">
+            <button class="button button-small" type="button" data-sort-toggle data-i18n="leaderboard.sort">Sort by Task Pass</button>
+            <a class="button button-small button-primary" href="https://github.com/zhangsheng93/MultiUAV-Plat/issues" data-i18n="leaderboard.submit">Submit Results</a>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th data-i18n="table.rank">Rank</th>
+                <th data-i18n="table.method">Method</th>
+                <th data-i18n="table.backend">LLM Backend</th>
+                <th data-i18n="table.taskPass">Task Pass</th>
+                <th data-i18n="table.avgCheck">Avg. Check</th>
+                <th data-i18n="table.globalCheck">Global Check</th>
+                <th data-i18n="table.totalFailed">Total Failed</th>
+                <th data-i18n="table.date">Date</th>
+                <th data-i18n="table.paper">Paper</th>
+                <th data-i18n="table.code">Code</th>
+                <th data-i18n="table.notes">Notes</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboard-body"></tbody>
+          </table>
+        </div>
+        <p class="leaderboard-footnote" data-i18n="leaderboard.costNote">
+          * The Agent4Drone + deepseek-v4-pro full benchmark run cost approximately $55 across more than 35K API requests, with roughly 13M output tokens, 84M cache-miss input tokens, and 1.9B cache-hit input tokens, based on the API usage records reported in the paper.
+        </p>
+      </section>
+
+      <section class="section resources-section" id="citation">
+        <div class="section-heading">
+          <p class="section-label" data-i18n="resources.label">Resources</p>
+          <h2 data-i18n="resources.title">Paper, code, benchmark, and citation.</h2>
+          <p class="citation-notice" data-i18n="resources.citationNotice">
+            If you find this paper useful in your research, please consider citing it.
+            If you use or refer to our platform, benchmark, or workflow framework, please cite our paper.
+          </p>
+        </div>
+        <div class="resources-grid">
+          <a class="resource-link" href="https://github.com/zhangsheng93/MultiUAV-Plat">
+            <span data-i18n="resources.code.title">Code repository</span>
+            <small data-i18n="resources.code.body">Open-source platform implementation</small>
+          </a>
+          <a class="resource-link" href="#citation">
+            <span data-i18n="resources.paper.title">Paper and citation</span>
+            <small data-i18n="resources.paper.body">Paper information, BibTeX entry, and citation guidance</small>
+          </a>
+          <a class="resource-link" href="https://github.com/zhangsheng93/MultiUAV-Plat/releases">
+            <span data-i18n="resources.data.title">Benchmark data</span>
+            <small data-i18n="resources.data.body">Download benchmark package from releases</small>
+          </a>
+        </div>
+        <div class="citation-box">
+          <button class="copy-button" type="button" data-copy-citation data-i18n="resources.copy">Copy BibTeX</button>
+          <pre><code id="citation-text">@article{zhang2026multiuavplat,
+  title   = {MultiUAV-Plat: An LLM-Oriented Platform, Benchmark and Framework for Multi-UAV Collaborative Task Planning},
+  author  = {Zhang, Sheng and Li, Qinglin and Zang, Yuechao and Huang, Xueqin and Fu, Yijia and Zhu, Cheng},
+  journal = {arXiv preprint},
+  year    = {2026}
+}</code></pre>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footer.text">MultiUAV-Plat · LLM-oriented multi-UAV collaborative task planning</p>
+      <a href="#top" data-i18n="footer.back">Back to top</a>
+    </footer>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

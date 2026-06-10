@@ -1,0 +1,88 @@
+[
+  {
+    "rank": 1,
+    "method": "Agent4Drone",
+    "featured": true,
+    "backend": "DeepSeek V4 Pro",
+    "taskPass": 70.27,
+    "avgCheck": 84.86,
+    "globalCheck": 82.82,
+    "totalFailed": 6.20,
+    "passedTasks": "1054 / 1500",
+    "fullyFailedTasks": "93 / 1500",
+    "date": "2026-06-06",
+    "notes": "Full benchmark run",
+    "links": {
+      "github": "https://github.com/zhangsheng93/MultiUAV-Plat",
+      "paper": "https://arxiv.org/"
+    }
+  },
+  {
+    "rank": 2,
+    "method": "Agent4Drone",
+    "backend": "DeepSeek V4 Flash",
+    "taskPass": 69.60,
+    "avgCheck": 83.40,
+    "globalCheck": 80.76,
+    "totalFailed": 6.80,
+    "passedTasks": "1044 / 1500",
+    "fullyFailedTasks": "102 / 1500",
+    "date": "2026-06-06",
+    "notes": "Full benchmark run",
+    "links": {
+      "github": "https://github.com/zhangsheng93/MultiUAV-Plat",
+      "paper": "https://arxiv.org/"
+    }
+  },
+  {
+    "rank": 3,
+    "method": "Agent4Drone",
+    "backend": "doubao-2-pro",
+    "taskPass": 57.93,
+    "avgCheck": 74.58,
+    "globalCheck": 71.96,
+    "totalFailed": 12.93,
+    "passedTasks": "869 / 1500",
+    "fullyFailedTasks": "194 / 1500",
+    "date": "2026-06-09",
+    "notes": "Paper framework",
+    "links": {
+      "github": "https://github.com/zhangsheng93/MultiUAV-Plat",
+      "paper": "https://arxiv.org/"
+    }
+  },
+  {
+    "rank": 4,
+    "method": "ReAct",
+    "backend": "qwen3.5",
+    "taskPass": 41.93,
+    "avgCheck": 59.42,
+    "globalCheck": 56.29,
+    "totalFailed": 22.20,
+    "passedTasks": "629 / 1500",
+    "fullyFailedTasks": "333 / 1500",
+    "date": "2026-05-25",
+    "notes": "Baseline",
+    "links": {
+      "github": "https://github.com/zhangsheng93/MultiUAV-Plat",
+      "paper": ""
+    }
+  },
+  {
+    "rank": 5,
+    "method": "ReAct",
+    "backend": "doubao-2-pro",
+    "taskPass": 30.60,
+    "avgCheck": 47.91,
+    "globalCheck": 43.15,
+    "totalFailed": 32.40,
+    "passedTasks": "459 / 1500",
+    "fullyFailedTasks": "486 / 1500",
+    "date": "2026-06-10",
+    "notes": "Baseline",
+    "links": {
+      "github": "https://github.com/zhangsheng93/MultiUAV-Plat",
+      "paper": ""
+    }
+  }
+]
