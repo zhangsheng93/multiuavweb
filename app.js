@@ -257,6 +257,23 @@ const fallbackLeaderboardRows = [
   },
   {
     rank: 3,
+    method: "ReAct",
+    backend: "DeepSeek V4 Pro",
+    taskPass: 63.60,
+    avgCheck: 79.72,
+    globalCheck: 73.09,
+    totalFailed: 7.87,
+    passedTasks: "954 / 1500",
+    fullyFailedTasks: "118 / 1500",
+    date: "2026-06-16",
+    notes: "Baseline",
+    links: {
+      github: "https://github.com/zhangsheng93/MultiUAV-Plat",
+      paper: ""
+    }
+  },
+  {
+    rank: 4,
     method: "Agent4Drone",
     backend: "doubao-2-pro",
     taskPass: 57.93,
@@ -273,7 +290,7 @@ const fallbackLeaderboardRows = [
     }
   },
   {
-    rank: 4,
+    rank: 5,
     method: "ReAct",
     backend: "qwen3.5",
     taskPass: 41.93,
@@ -290,7 +307,7 @@ const fallbackLeaderboardRows = [
     }
   },
   {
-    rank: 5,
+    rank: 6,
     method: "ReAct",
     backend: "doubao-2-pro",
     taskPass: 30.60,
