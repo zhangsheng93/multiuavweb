@@ -235,7 +235,7 @@ const fallbackLeaderboardRows = [
     notes: "Full benchmark run",
     links: {
       github: "https://github.com/zhangsheng93/MultiUAV-Plat",
-      paper: "https://arxiv.org/"
+      paper: "https://arxiv.org/abs/2606.31073"
     }
   },
   {
@@ -252,7 +252,7 @@ const fallbackLeaderboardRows = [
     notes: "Full benchmark run",
     links: {
       github: "https://github.com/zhangsheng93/MultiUAV-Plat",
-      paper: "https://arxiv.org/"
+      paper: "https://arxiv.org/abs/2606.31073"
     }
   },
   {
@@ -286,7 +286,7 @@ const fallbackLeaderboardRows = [
     notes: "Paper framework",
     links: {
       github: "https://github.com/zhangsheng93/MultiUAV-Plat",
-      paper: "https://arxiv.org/"
+      paper: "https://arxiv.org/abs/2606.31073"
     }
   },
   {
