@@ -99,7 +99,9 @@ const i18n = {
     "resources.copyToast": "BibTeX copied to clipboard.",
     "resources.copyFailed": "Copy failed. Please select and copy the BibTeX manually.",
     "footer.text": "MultiUAV-Plat · LLM-oriented multi-UAV collaborative task planning",
-    "footer.back": "Back to top"
+    "footer.back": "Back to top",
+    "visits.total": "Total visits",
+    "visits.today": "Today"
   },
   zh: {
     "nav.paper": "论文",
@@ -201,7 +203,9 @@ const i18n = {
     "resources.copyToast": "BibTeX 已复制到剪贴板。",
     "resources.copyFailed": "复制失败，请手动选中 BibTeX 复制。",
     "footer.text": "MultiUAV-Plat · 面向大模型的多无人机协同任务规划",
-    "footer.back": "返回顶部"
+    "footer.back": "返回顶部",
+    "visits.total": "总访问次数",
+    "visits.today": "今日访问次数"
   }
 };
 

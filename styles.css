@@ -916,8 +916,28 @@ pre {
   font-size: 14px;
 }
 
-.site-footer p {
+.site-footer p,
+.visit-counter {
   margin: 0;
+}
+
+.footer-main {
+  display: grid;
+  gap: 7px;
+}
+
+.visit-counter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  color: #8a97a8;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.visit-counter strong {
+  color: var(--muted-strong);
+  font-weight: 760;
 }
 
 .toast {
